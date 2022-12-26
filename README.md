@@ -1,7 +1,7 @@
 # Currency_Converter-SOAP
 Create a Soap web service for currency conversion
 
-#To Installation
+<h2>To Installation</h2>
 
 Step 1: Clone the project
 git clone https://github.com/ShehanUdantha/Currency_Converter-SOAP.git
@@ -18,6 +18,7 @@ This project uses the json-simple library to parse JSON data. In order to run th
 Step 5: Run the WS java file
 Once the project is set up and configured correctly, you can run the WS java file to start the web service. This will start a web server on your local machine and create the WSDL file.
  
+
 Step 6: View the WSDL file
 To view the WSDL file, open a web browser and navigate to the following URL:
 http://localhost:8888/WebService?wsdl
