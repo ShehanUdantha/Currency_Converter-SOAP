@@ -38,7 +38,6 @@ public class WS
     }
 
     //read json file
-    @WebMethod
     public String getJSONFromFile(String filename) {
         StringBuilder jsonText = new StringBuilder();
         try {
@@ -58,7 +57,6 @@ public class WS
     }
 
     //assign a value of a country codes
-    @WebMethod
     public float JsonParser(String countryCode){
         float countrySalary = 0;
         try{
